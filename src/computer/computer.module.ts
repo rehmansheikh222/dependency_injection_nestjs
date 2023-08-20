@@ -5,6 +5,6 @@ import { CpuModule } from 'src/cpu/cpu.module';
 
 @Module({
   controllers: [ComputerController],
-  imports: [CpuModule, DiskModule]
+  imports: [CpuModule, DiskModule],
 })
 export class ComputerModule {}
